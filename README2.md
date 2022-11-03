@@ -1,6 +1,6 @@
 Exp2: Create private repo on cloud.
 
--https://github.com/aws-samples/aws-codedeploy-sample-tomcat.git
+-git clone https://github.com/aws-samples/aws-codedeploy-sample-tomcat.git
 
 -git remote -v
 
