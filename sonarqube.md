@@ -20,6 +20,9 @@ sudo apt-get install docker.io
 
 Install SonarQube on Docker:
 
+```sudo su
+```
+
 
 ```
 sysctl -w vm.max_map_count=524288
