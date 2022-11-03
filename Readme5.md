@@ -1,9 +1,14 @@
-- sudo apt update
-
-- sudo apt install openjdk-11-jre
 
 ```
-- curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
+sudo apt update
+```
+```
+
+sudo apt install openjdk-11-jre
+```
+
+```
+curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 ```
 
@@ -19,10 +24,15 @@ if this dont work then
 https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo
 apt-key add -    
  ```   
-- sudo apt-get install jenkins
+ ```
+sudo apt-get install jenkins
+```
 
-- sudo systemctl enable jenkins
-
-- sudo systemctl start jenkins
-
-- sudo systemctl status jenkins (to check if working)
+```sudo systemctl enable jenkins
+```
+```
+sudo systemctl start jenkins
+```
+```
+sudo systemctl status jenkins (to check if working)
+```
